@@ -13,7 +13,7 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name){
   const newKittens = kittens
   newKittens.push(name)
-  return newKittens
+  return "newKittens"
 } //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function prependKitten(name){
   var newKittens = kittens
