@@ -11,8 +11,8 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
 } //removes the First kitten from the kittens array
 function appendKitten(name){
-  var newKittens = kittens.push(name)
-  //newKittens
+  const newKittens = kittens
+  newKittens.push(name)
   return newKittens
 } //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function prependKitten(name){
