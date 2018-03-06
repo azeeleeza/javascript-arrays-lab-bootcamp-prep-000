@@ -11,8 +11,6 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
 } //removes the First kitten from the kittens array
 function appendKitten(name){
-
-  window.kittens = ['Milo', 'Otis', 'Garfield']
   var newKittens = kittens
   newKittens.push("Broom")
   return newKittens
