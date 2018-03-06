@@ -11,22 +11,22 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
 } //removes the First kitten from the kittens array
 function appendKitten(name){
-  var newKittens = kittens
+  var kittens = kittens
   kittens.push(name)
   return kittens
 } //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function prependKitten(name){
-  var newKittens = kittens
+  var kittens = kittens
   kittens.unshift(name)
   return kittens
 } //prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
 function removeLastKitten(){
-  var newKittens = kittens
+  var kittens = kittens
   kittens.pop()
   return kittens
 } //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
 function removeFirstKitten(){
-var newKittens = kittens
+var kittens = kittens
 kittens.shift()
 return kittens
 } //removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
